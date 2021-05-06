@@ -104,6 +104,8 @@ TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1
 GOOD LUCK 😀
 */
 
+/*
+
 const massMark = 95;
 const heightMark = 1.88;
 const massJohn = 85;
@@ -116,3 +118,29 @@ const markHigherBMI = bmiMark > bmiJohn;
 
 console.log(bmiMark, bmiJohn);
 console.log(markHigherBMI);
+
+----------
+
+const firstName = 'John';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const john = "I'm " + firstName + ", a " + (year - birthYear) + "-year-old " + job + "!";
+console.log(john);
+
+const johnNew = `I'm ${firstName}, a ${year - birthYear}-year-old ${job}!`;
+console.log(johnNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`Template string with
+multitple
+lines`);
+
+*/
+

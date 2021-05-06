@@ -144,3 +144,21 @@ lines`);
 
 */
 
+const age = 15;
+const drivingAge = 18;
+const yearsLeft = drivingAge - age;
+
+if (yearsLeft <= 0) {
+    console.log('Sarah can start her driving license 🚗.');
+} else {
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2012;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
